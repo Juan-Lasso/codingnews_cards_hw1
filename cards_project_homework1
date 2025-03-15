@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>HTML Skeleton</title>
+    <style>
+
+    .big_container {
+        width: 350px;
+        background: #f9f9f9;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Garamond', serif;
+        text-align: center;
+    }
+
+    .overline {
+        font-size: 12px;
+        color: #555;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .name {
+        font-size: 22px;
+        font-weight: bold;
+        color: #2c3e50;
+        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .age {
+    font-size: 17px; 
+    color: #B84C47; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-family: 'Garamond', serif;
+    text-transform: capitalize; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+    .party_and_state, .generation {
+        font-size: 14px;
+        color: #000000;
+        margin: 10px 0;
+        font-family: 'Avenir', sans-serif;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 12px;
+    }
+
+    .quote {
+        font-size: 15px;
+        color: #777;
+        font-style: italic;
+        border-left: 3px solid #3498db;
+        padding-left: 10px;
+        margin-top: 15px;
+    }
+    
+    .profile-img {
+    width: 100%;
+    max-width: 150px; 
+    border-radius: 5%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+   
+
+}
+
+    </style>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    
+</head>
+
+<body>
+    <!-- This is the profile identity of Maxwell Alejandro Frost who was born  1/17/1997. A representative
+     from Florida and a Democrat  -->
+     <div class="big_container">
+         <h2 class="overline"> The baby of the bunch</h2>
+         <h2 class="name"> Maxwell Alejandro Frost </h2>
+         <img src="frost_card.jpg" class="profile-img">
+         <p class="age"> 29 yrs  old</p>
+         <p class="party_and_state"> He is a Democrat representing Florida's 10th congressional district.</p>
+         <p class="generation"> He's the youngest member of Congress and the sole Gen Z representative.</p>
+         <p class="quote"> "Most of the time when I face ageism in Congress, it's not going to be someone coming up to me and saying, "You're young. You don't belong here." It won't be overt like that. It's going to be implicit." | NPR</p>
+     </div>   
+
+    <!-- Your javascript should be called here -->
+</body>
+
+</html>
